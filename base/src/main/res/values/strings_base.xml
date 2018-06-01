@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_exit_tip">再按一次返回键退出应用程序</string>
+    <string name="loading">正在加载中...</string>
+    <string name="network_unavailable">网络不可用!</string>
+    <string name="try_again_later">请求失败，请稍后再试!</string>
+
+
+    <string name="permission_request_location">请开启位置信息权限，以正常使用定位功能</string>
+    <string name="permission_request_storage">请开启存储空间权限，否则会导致应用程序将无法正常运行</string>
+    <string name="permission_request_take_photo">请开启存储空间和相机权限，以正常使用拍照功能</string>
+    <string name="permission_request_call_phone">请开启打电话权限，以正常使用打电话功能</string>
+    <string name="permission_request_send_sms">请开启发短信权限，以正常使用发短信功能</string>
+
+    <string name="permission_settings_cancel">取消</string>
+    <string name="permission_settings_confirm">去设置</string>
+    <string name="permission_settings_title">权限申请</string>
+
+    <string name="permission_settings_content_location">在设置-应用-%s-权限中开启位置信息权限，以正常使用定位功能</string>
+    <string name="permission_settings_content_storage">在设置-应用-%s-权限中开启存储空间权限，否则会导致应用程序将无法正常运行</string>
+    <string name="permission_settings_content_take_photo">在设置-应用-%s-权限中开启存储空间和相机权限，以正常使用拍照功能</string>
+    <string name="permission_settings_content_call_phone">在设置-应用-%s-权限中开启打电话权限，以正常使用打电话功能</string>
+    <string name="permission_settings_content_send_sms">在设置-应用-%s-权限中开启发短信权限，以正常使用发短信功能</string>
+
+    <string name="tip_permission_location_denied">不开启位置信息权限时%s将无法上报位置!</string>
+    <string name="tip_permission_storage_denied">不开启存储空间权限时%s将无法运行!</string>
+    <string name="tip_permission_take_photo_denied">不开启存储空间和相机权限时将无法使用%s的拍照功能!</string>
+    <string name="tip_permission_call_phone_denied">不开启打电话权限时无法将使用%s打电话!</string>
+    <string name="tip_permission_send_sms_denied">不开启发短信权限时无法将使用%s发短信!</string>
+</resources>

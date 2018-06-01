@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00ae7d</color>
+    <color name="colorPrimary">#00ce7d</color>
+    <color name="navigationBarColor">@color/colorPrimary</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="windowBackground">@color/white</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#727272</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="colorPrimaryTrans">#CC00ce7d</color>
+
+    <color name="red_pressed">#ff6e63</color>
+    <color name="red_normal">#ff3329</color>
+
+    <color name="toast_background">#b9000000</color>
+
+    <color name="black_middle">#8f8f8f</color>
+    <color name="black_light">#d4d4d4</color>
+    <color name="black_light_trans">#0dd4d4d4</color>
+    <color name="black_dark">#4d4d4d</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="adapter_divider">#dedede</color>
+    <color name="adapter_line">#dedede</color>
+    <color name="pp_photo_selected_mask">#4D000000</color>
+
+</resources>

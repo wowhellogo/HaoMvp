@@ -1,0 +1,29 @@
+ext {
+    android = [
+            compileSdkVersion: 27,
+            minSdkVersion    : 15,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+            versionName      : "1.0",
+    ]
+    dependencies = [
+            butterknifeVersion       : "8.8.1",
+            supportVersion           : "27.1.1",
+            multidexVersion          : "1.0.2",
+            constraintLayoutVersion  : "1.1.0",
+            rxandroidVersion         : "2.0.1",
+            rxjavaVersion            : "2.1.7",
+            rxbindingVersion         : "2.1.1",
+            rxrelayVersion           : "2.0.0",
+            rxlifecycleVersion       : "2.2.1",
+            retrofitVersion          : "2.4.0",
+            loggingInterceptorVersion: "3.9.0",
+            loggerVersion            : "2.1.1",
+            easypermissionsVersion   : "0.4.2",
+            materialdialogsVersion   : "0.9.6.0",
+            umengAnalyticsVersion    : "6.1.4",
+            daggerVersion            : "2.11",
+            glideVersion             : "3.7.0",
+
+    ]
+}

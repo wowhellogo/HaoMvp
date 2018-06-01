@@ -1,0 +1,61 @@
+android {
+    signingConfigs {
+        jimi {
+            storeFile file(KEY)
+            storePassword KEY_PASSWORD
+            keyAlias KEY_ALIAS
+            keyPassword KEYPASSWORD
+        }
+    }
+    defaultConfig {
+        multiDexEnabled true
+        /*ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64', 'armeabi-v7a', 'armeabi-v8a'
+        }*/
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "2048M"
+        preDexLibraries = false
+    }
+
+    lintOptions {
+        abortOnError false
+        ignoreWarnings true
+        disable "InvalidPackage"
+        lintConfig file("lint.xml")
+        disable 'MissingTranslation', 'ExtraTranslation'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/ASL2.0'
+        exclude 'LICENSE'
+        exclude 'NOTICE'
+    }
+
+    dataBinding {
+        /*开启dataBinding*/
+        enabled true
+    }
+}
